@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Lilian | Portfólio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         MENU
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+            &lt;Lilian/&gt;
+        </div>
+
+        <nav>
+
+            <button onclick="abrirPagina('inicio')">
+                Início
+            </button>
+
+            <button onclick="abrirPagina('sobre')">
+                Sobre
+            </button>
+
+            <button onclick="abrirPagina('projetos')">
+                Projetos
+            </button>
+
+            <button onclick="abrirPagina('tecnologias')">
+                Tecnologias
+            </button>
+
+            <button onclick="abrirPagina('certificados')">
+                Certificados
+            </button>
+
+            <button onclick="abrirPagina('contato')">
+                Contato
+            </button>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =========================
+         INÍCIO
+    ========================== -->
+
+    <section id="inicio" class="pagina ativa">
+
+        <div class="inicio-conteudo">
+
+            <div class="texto">
+
+                <span>Olá, meu nome é</span>
+
+                <h1>
+                    Lilian <strong>Pereira</strong>
+                </h1>
+
+                <h2>
+                    Estudante de Tecnologia & Desenvolvimento Web
+                </h2>
+
+                <p>
+                    Sou estudante em tecnologia e estou aprendendo
+                    desenvolvimento web, programação e banco de dados.
+                    Este portfólio reúne alguns dos projetos que venho
+                    desenvolvendo.
+                </p>
+
+                <div class="botoes">
+
+                    <button onclick="abrirPagina('projetos')" class="botao">
+                        Ver meus projetos
+                    </button>
+
+                    <button onclick="abrirPagina('contato')" class="botao">
+                        Entre em contato
+                    </button>
+
+                </div>
+
+            </div>
+
+
+            <div class="codigo">
+
+                <div class="barra">
+                    <i></i>
+                    <i></i>
+                    <i></i>
+                </div>
+
+                <div class="codigo-texto">
+
+                    <p>&lt;nome&gt;<b>Lilian</b>&lt;/nome&gt;</p>
+
+                    <p>
+                        &lt;aprendendo&gt;<br>
+                        &nbsp;&nbsp;Tecnologia<br>
+                        &lt;/aprendendo&gt;
+                    </p>
+
+                    <p>
+                        &lt;objetivo&gt;<br>
+                        &nbsp;&nbsp;evoluir<br>
+                        &lt;/objetivo&gt;
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         SOBRE
+    ========================== -->
+
+    <section id="sobre" class="pagina">
+
+        <div class="conteudo">
+
+            <span>SOBRE MIM</span>
+
+            <h1>Quem sou eu?</h1>
+
+            <p>
+                Meu nome é <strong>Lilian Pereira</strong> e sou
+                estudante da área de tecnologia.
+            </p>
+
+            <p>
+                Estou aprendendo desenvolvimento web, programação,
+                HTML, CSS, JavaScript e banco de dados.
+            </p>
+
+            <p>
+                Meu objetivo é continuar aprendendo, criar novos
+                projetos e evoluir cada vez mais na área de tecnologia.
+            </p>
+
+            <div class="cards">
+
+                <div class="card">
+                    <h3>🎓 Estudos</h3>
+                    <p>
+                        Aprendendo programação e desenvolvimento web.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>💻 Desenvolvimento</h3>
+                    <p>
+                        Criando sites e sistemas para praticar.
+                    </p>
+                </div>
+
+                <div class="card">
+                    <h3>🚀 Objetivo</h3>
+                    <p>
+                        Evoluir minhas habilidades em tecnologia.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         PROJETOS
+    ========================== -->
+
+    <section id="projetos" class="pagina">
+
+        <div class="conteudo">
+
+            <span>MEUS PROJETOS</span>
+
+            <h1>Projetos desenvolvidos</h1>
+
+            <div class="cards">
+
+                <div class="card projeto">
+
+                    <div class="icone">🛒</div>
+
+                    <h2>Lily Fashion</h2>
+
+                    <p>
+                        Loja virtual desenvolvida com HTML,
+                        CSS e JavaScript.
+                    </p>
+
+                    <button class="botao"
+                        onclick="verProjeto('Lily Fashion')">
+                        Ver projeto
+                    </button>
+
+                </div>
+
+
+                <div class="card projeto">
+
+                    <div class="icone">🏫</div>
+
+                    <h2>Sistema Escolar</h2>
+
+                    <p>
+                        Sistema para cadastro de alunos,
+                        professores, disciplinas e notas.
+                    </p>
+
+                    <button class="botao"
+                        onclick="verProjeto('Sistema Escolar')">
+                        Ver projeto
+                    </button>
+
+                </div>
+
+
+                <div class="card projeto">
+
+                    <div class="icone">🔧</div>
+
+                    <h2>Agil Tec</h2>
+
+                    <p>
+                        Projeto de empresa de tecnologia
+                        e assistência técnica.
+                    </p>
+
+                    <button class="botao"
+                        onclick="verProjeto('Agil Tec')">
+                        Ver projeto
+                    </button>
+
+                </div>
+
+
+                <div class="card projeto">
+
+                    <div class="icone">🍧</div>
+
+                    <h2>Açayteria</h2>
+
+                    <p>
+                        Site de uma açaiteria com produtos
+                        e informações de contato.
+                    </p>
+
+                    <button class="botao"
+                        onclick="verProjeto('Açayteria')">
+                        Ver projeto
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         TECNOLOGIAS
+    ========================== -->
+
+    <section id="tecnologias" class="pagina">
+
+        <div class="conteudo">
+
+            <span>TECNOLOGIAS</span>
+
+            <h1>O que estou aprendendo</h1>
+
+            <div class="cards">
+
+                <div class="card tecnologia">
+                    <h2>HTML</h2>
+                    <p>
+                        Estrutura das páginas.
+                    </p>
+                </div>
+
+                <div class="card tecnologia">
+                    <h2>CSS</h2>
+                    <p>
+                        Estilos e aparência dos sites.
+                    </p>
+                </div>
+
+                <div class="card tecnologia">
+                    <h2>JavaScript</h2>
+                    <p>
+                        Interatividade e funcionalidades.
+                    </p>
+                </div>
+
+                <div class="card tecnologia">
+                    <h2>PHP</h2>
+                    <p>
+                        Programação para sistemas web.
+                    </p>
+                </div>
+
+                <div class="card tecnologia">
+                    <h2>MySQL</h2>
+                    <p>
+                        Banco de dados.
+                    </p>
+                </div>
+
+                <div class="card tecnologia">
+                    <h2>GitHub</h2>
+                    <p>
+                        Organização e publicação dos projetos.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <section id="certificados" class="pagina">
+
+    <div class="conteudo">
+
+        <span>CERTIFICADOS</span>
+
+        <h1>Meus certificados</h1>
+
+        <div class="cards">
+
+            <div class="card">
+
+                <div class="icone">🎓</div>
+
+                <h2>Curso de Tecnologia</h2>
+
+                <p>
+                    Certificado relacionado aos meus estudos
+                    na área de tecnologia.
+                </p>
+
+                <button
+                    class="botao"
+                    onclick="abrirCertificados()">
+                    Ver certificado
+                </button>
+
+            </div>
+
+
+            <div class="card">
+
+                <div class="icone">💻</div>
+
+                <h2>Desenvolvimento Web</h2>
+
+                <p>
+                    Certificado relacionado ao desenvolvimento web.
+                </p>
+
+                <button
+                    class="botao"
+                    onclick="abrirCertificados()">
+                    Ver certificado
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- JANELA DOS CERTIFICADOS -->
+
+<div id="modalCertificados" class="modal">
+
+    <div class="modal-conteudo">
+
+        <button
+            class="fechar"
+            onclick="fecharCertificados()">
+            ✕
+        </button>
+
+        <h2>Meus certificados</h2>
+
+        <div class="fotos-certificados">
+
+        
+                <img src="foto.png" alt="Certificado">
+
+
+                <img src="zero.png" alt="Certificado">
+
+        </div>
+
+    </div>
+
+</div>
+
+  <!-- =========================
+     CONTATO
+========================= -->
+
+<section id="contato" class="pagina">
+
+    <div class="conteudo">
+
+        <span>CONTATO</span>
+
+        <h1>Entre em contato</h1>
+
+        <p>
+            Escolha uma das opções abaixo:
+        </p>
+
+        <div class="cards contatos">
+
+            <!-- INSTAGRAM -->
+            <a
+                href="https://www.instagram.com/lily_pereira_00/"
+                target="_blank"
+                class="card contato"
+            >
+
+                <div class="icone">
+                    📸
+                </div>
+
+                <h2>Instagram</h2>
+
+                <p>
+                    @lily_pereira_00
+                </p>
+
+            </a>
+
+
+            <!-- E-MAIL -->
+            <a
+                href="mailto:lilian.10604062@aluno.mg.gov.br"
+                class="card contato"
+            >
+
+                <div class="icone">
+                    📧
+                </div>
+
+                <h2>E-mail</h2>
+
+                <p>
+                    lilian.10604062@aluno.mg.gov.br
+                </p>
+
+            </a>
+
+
+            <!-- WHATSAPP -->
+            <a
+                href="https://wa.me/55SEUNUMERO"
+                target="_blank"
+                class="card contato"
+            >
+
+                <div class="icone">
+                    📱
+                </div>
+
+                <h2>WhatsApp</h2>
+
+                <p>
+                    Fale comigo pelo WhatsApp
+                </p>
+
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <!-- JAVASCRIPT -->
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
